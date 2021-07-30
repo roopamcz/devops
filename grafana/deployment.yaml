@@ -19,7 +19,7 @@ spec:
         image: grafana/grafana:latest
         env:
           - name: "GF_SERVER_ROOT_URL"
-            value: "htts://flush.com/grafana/"
+            value: "https://flush.com/grafana/"
         ports:
         - name: grafana
           containerPort: 3000
